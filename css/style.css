@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+.navegador{
+    font-size: 32px;
+}
 table{
 border: solid 1px;
 border-collapse: collapse;
