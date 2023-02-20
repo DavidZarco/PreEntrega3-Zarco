@@ -2,21 +2,26 @@
     margin: 0;
     padding: 0;
 }
-.navegador{
+
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+
+/*Index*/
+
+
+nav ul a{
     font-size: 32px;
+    color: black;
+    padding: 50px;
+    text-decoration: none;
+    font-family: 'Source Serif Pro', serif;    
 }
-table{
-border: solid 1px;
-border-collapse: collapse;
-}
-th,td{
-border: solid 1px;
-}
-nav ul li a{
-    color: white;
+header nav{
+    height: 40px;
 }
 nav {
-    background-color: aquamarine;
+    background-color: #D9C6FA;
+    text-align: center;  
 }
 
 .portada{
@@ -27,3 +32,55 @@ nav {
     height: 1000px;
 
 }
+.logo-blanco{
+    text-align: center;
+    background-image: url(../imagenes/logoblanco.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 100px;
+}
+.primer-texto{
+    color: #E92178;
+    text-align: center;
+    background-color: #D9C6FA;
+    font-family: 'Merriweather', serif;
+    padding: 4px;
+}
+
+
+/* main img {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 1000px;
+} */
+
+
+
+
+/*Talles*/
+table{
+    border: solid 4px;
+    border-collapse: collapse;
+}
+th,td{
+    border: solid 4px;
+    padding: 10px;
+}
+/*Contacto*/
+fieldset{
+    border: solid 2px;
+    border-radius: 10px;
+    border-image-width: 1px;
+    width: 280px;
+}
+textarea{
+    resize:none;
+}
+
+/*Politica de Cambio*/
+
+/*Preguntas Frecuentes*/
+
+/*Productos*/
+
+
