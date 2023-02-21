@@ -39,6 +39,15 @@ nav {
     background-repeat: no-repeat;
     height: 100px;
 }
+/* .logo-horizontal{
+    background-image: url(../imagenes/Logo-horizontal.png);
+    height: fit-content;
+    width: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+} */
 .primer-texto{
     color: #E92178;
     text-align: center;
@@ -78,9 +87,37 @@ textarea{
 }
 
 /*Politica de Cambio*/
+.justificado{
+    text-align: start;
+}
+.puntos{
+    list-style: circle;
+    list-style-type: disc;
+    
+}
+main ul li{
+    text-align: center;
+    list-style-type: circle;
+    list-style: disc;
+}
 
 /*Preguntas Frecuentes*/
-
+p{
+    text-align: center;
+}
 /*Productos*/
+/*Generales*/
+h1{
+    text-align: center;
+}
+
+.webs tr td{
+    border: none;
+    font-size: 18px;
+    font-family: 'Source Serif Pro', serif; 
+}
+footer div table{
+    border: none;
+}
 
 
