@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
   @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
@@ -71,7 +72,7 @@ table{
     border: solid 4px;
     border-collapse: collapse;
 }
-th,td{
+.tabla-talles th,td{
     border: solid 4px;
     padding: 10px;
 }
@@ -111,7 +112,7 @@ h1{
     text-align: center;
 }
 
-.webs tr td{
+.table-webs tr td{
     border: none;
     font-size: 18px;
     font-family: 'Source Serif Pro', serif; 
@@ -121,3 +122,27 @@ footer div table{
 }
 
 
+.tarjeta{
+    width: 200px;
+    height: 200px;
+    background-color: #E92178;
+    margin: 10px;
+    padding: 15px;
+}
+.box-tarjeta{
+    width: 200px;
+    height: 100px;
+    size: 100px;
+    background-color: aquamarine;
+}
+.publicidad{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    position: fixed;
+    bottom: 100px;
+    right: 10px;
+
+}
+/* 
+object fit cover */
