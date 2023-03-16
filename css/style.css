@@ -238,10 +238,12 @@ footer div table{
 
 
 @media(max-width:1024px){
-    
+    .whatsapp{
+        width: 20px;       
+    }
     
 }
-@media(max-width:768px){
+@media(max-width:769px){
     .primer-texto p{
         font-size: 22px;
     }
