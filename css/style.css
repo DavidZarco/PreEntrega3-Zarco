@@ -270,7 +270,13 @@ footer div table{
         height: 200px;
     }
     .whatsapp{
-        width: 50px;       
+        width: 20px;       
+    }
+    .nuestras-redes{
+        height: 50px;
+    }
+    .nuestras-redes img{
+        height: 50px;
     }
 }
 @media(max-width:480px){
