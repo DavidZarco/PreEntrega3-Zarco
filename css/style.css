@@ -6,7 +6,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
 
-
 /*Index*/
 .primer-texto{
     color: #E92178;
@@ -44,7 +43,7 @@
 .imagen-banner{
     width: 100%;
     height: 900px;
-
+    
 }
 .portada{
     text-align: center;
@@ -57,20 +56,21 @@
     text-align: end;
 }
 .caja-productosdestacadosindex{
-display: grid;
-flex-direction: row;
-justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 .prod-destacado{
-    width: 1000px;
+    width: 400px;
     margin: 10px;
     border: solid 4px;
     border-radius: 5px;
 }
+
 .prod-destacado img {
     width: 100%;
     height: 600px;
-    object-fit: cover;  
+
 }
 .prod-destacado button{
     color: white;
@@ -176,7 +176,7 @@ main ul li{
     width: 90%;
     height: 800px;
     margin-top: 20px;
-
+    
 }
 .img-prod div button{
     color: white;
@@ -192,8 +192,8 @@ main ul li{
     column-gap: 10px;
     row-gap: 10px;
     
-   
-    }
+    
+}
 
 
 
@@ -222,7 +222,63 @@ footer div table{
     object-fit: cover;
 }
 .pad-top15{
-padding-top: 15px;
+    padding-top: 15px;
+}
+.metodos-de-pago{
+    display: flex;
+}
+.metodos-de-pago div img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.nuestras-redes{
+    display: flex;
+}
+
+
+@media(max-width:1024px){
+    
+    
+}
+@media(max-width:768px){
+    .primer-texto p{
+        font-size: 22px;
+    }
+    .navegador{
+        width: 100%;
+        height: 40px;  
+    }
+    .navegador ul li a{
+        font-size: 16px;
+    }
+    .imagen-banner{
+        height: 400px;
+    }
+    main h2{
+        font-size: 12px;
+    }
+    .prod-destacado{
+        width: 100%;
+        height: 300px;   
+    }
+    .caja-productosdestacadosindex{
+        height: 400px;
+    }
+    .prod-destacado img{
+        object-fit: cover;
+        height: 200px;
+    }
+    .whatsapp{
+        width: 50px;       
+    }
+}
+@media(max-width:480px){
+    .primer-texto p{
+        font-size: 14px;
+    }
+    
+
 }
 
 /* 
