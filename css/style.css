@@ -56,8 +56,8 @@
 .texto-izquierda{
     text-align: end;
 }
-.caja-productosdestacados{
-display: flex;
+.caja-productosdestacadosindex{
+display: grid;
 flex-direction: row;
 justify-content: center;
 }
@@ -173,7 +173,7 @@ main ul li{
 /*Productos*/
 
 .img-prod div img {
-    width: 50%;
+    width: 90%;
     height: 800px;
     margin-top: 20px;
 
@@ -187,9 +187,12 @@ main ul li{
     padding: 5px 15px;
 }
 .caja-productos{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    
+   
     }
 
 
