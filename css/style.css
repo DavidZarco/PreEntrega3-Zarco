@@ -386,7 +386,7 @@ footer div table{
         height: 200px;
     }
     div.prod-destacado{
-        height: 180px;
+        height: 170px;
     }
     .prod-destacado img {
         height: 100px;
@@ -399,7 +399,9 @@ footer div table{
     }
     .prod-destacado h3{
         font-size: 4px;
+        padding-top: 5px;
     }
+     
     .prod-destacado button{
         font-size: 2px;
         margin: 2px;
