@@ -1,0 +1,16 @@
+.navegador{
+    background-color: #D9C6FA;
+    ul{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+    }
+    ul li a{
+        font-size: 32px;
+        color: black;
+        text-decoration: none;
+        font-family: 'Source Serif Pro', serif;
+        display: block;
+        padding: 10px 20px;    
+    }
+}

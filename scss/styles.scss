@@ -1,0 +1,569 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+@import "reset";
+@import "navegador";
+@import "primer-texto";
+@import "logo-blanco";
+@import "imagen-banner";
+@import "box-genero";
+@import "prod-destacado";
+
+/*Index*/
+
+
+.texto-izquierda{
+    text-align: end;
+}
+.caja-productosdestacadosindex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.h2-prod-centrado{
+    font-size: 46px;
+    text-align: center;
+}
+.redes-h2{
+    font-size: 34px;
+}
+
+
+
+
+
+
+/*Talles*/
+
+.h1-talles{
+    text-align: center;
+}
+table{
+    border: solid 4px;
+    border-collapse: collapse;
+}
+.tabla-talles th,td{
+    border: solid 4px;
+    padding: 10px;
+}
+
+/*Contacto*/
+
+textarea{
+    resize:none;
+}
+.pad-top15 form{
+    padding-top: 15px;
+}
+.pad-top15 form div{
+    padding-top: 15px;
+}
+
+/*Politica de Cambio*/
+.justificado{
+    text-align: start;
+}
+main ul li{
+    text-align: center;
+    list-style: disc;
+}
+.strong-politica{
+    padding-top: 15px;
+}
+.h2-footer{
+    padding-top: 10px;
+}
+.foot-position-politicas{
+    position: absolute;
+    bottom: 385px;
+    width: 100%;
+    height: 10px;
+}
+.h1-politicas{
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+
+
+
+/*Preguntas Frecuentes*/
+
+
+
+
+
+
+/*Productos*/
+
+.h1-productos{
+    text-align: center;
+}
+.img-prod div img {
+    width: 90%;
+    height: 800px;
+    margin-top: 20px;
+    
+}
+.img-prod div button{
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(11, 11, 170);
+    margin: 10px;
+    padding: 5px 15px;
+}
+.caja-productos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    
+    
+}
+
+
+
+
+/*Generales*/
+
+
+.table-webs tr td{
+    border: none; 
+}
+footer div table{
+    border: none;
+}
+.pad-top15{
+    padding-top: 15px;
+}
+.metodos-de-pago{
+    display: flex;
+    height: 60px;
+    div img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+.nuestras-redes{
+    display: flex;
+    height: 60px;
+    div img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+
+
+@media(max-width:1025px){
+    .h1-politicas{
+        font-size: 36px;
+    }
+    main p{
+       font-size: 18px; 
+    }
+    .lista-politicas{
+        font-size: 18px;
+    }
+    .imagen-banner{
+        height: 400px;
+    }
+    .h2-prod-centrado{
+        font-size: 28px;
+        text-align: center;
+    }
+    .h2-footer{
+        font-size: 28px;
+    }
+    .navegador{
+        width: 100%;
+        ul li a{
+            font-size: 20px;
+        }
+    }
+    main h2{
+        font-size: 38px;
+    }
+    footer h2{
+        font-size: 25px;
+    }
+    footer h3{
+        font-size: 20px;
+    }
+    footer p{
+        font-size: 14px;
+    }
+    footer h6{
+        font-size: 10px;
+    }
+    .nuestras-redes{
+        height: 50px;
+        img{
+            height: 50px;
+        }
+    }
+    
+}
+@media(max-width:769px){
+    .primer-texto p{
+        font-size: 10px;
+    }
+    .h1-politicas{
+        font-size: 30px;
+    }
+    main strong{
+        font-size: 18px;
+    }
+    main p{
+       font-size: 16px; 
+    }
+    .lista-politicas{
+        font-size: 14px;
+    }
+    .h2-foter{
+        font-size: 24px;
+    }
+    div.nuestras-redes{
+        height: 40px;
+    }
+    .h3-footer{
+        font-size: 18px;
+    }
+    footer p{
+        font-size: 12px;
+    }
+    footer h6{
+        font-size: 8px;
+    }
+    .navegador ul li a{
+        font-size: 14px;
+    }
+    .logo-blanco{
+        width: 150px;
+    }
+    .imagen-banner{
+        height: 300px;
+    }
+    .h2-prod-centrado{
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    .prod-destacado{
+        width: 100%;
+        height: 395px;   
+    }
+
+    .prod-destacado h4{
+        font-size: 16px;
+    }
+    .prod-destacado p{
+        font-size: 10px;
+    }
+    .prod-destacado h3{
+        font-size: 12px;
+        padding-top: 5px;
+    }
+     
+    .prod-destacado button{
+        font-size: 6px;
+        margin: 4px; 
+    }
+    .caja-productosdestacadosindex{
+        height: 320px;
+    }
+    div.prod-destacado{
+        height: 300px;
+    }
+    .prod-destacado img{
+        object-fit: cover;
+        height: 200px;
+    }
+    .h2-footer{
+        font-size: 20px;
+    }
+
+    .nuestras-redes{
+        height: 50px;
+    }
+    .nuestras-redes img{
+        height: 50px;
+    }
+}
+@media(max-width:556px){
+    .primer-texto p{
+        font-size: 6px;
+    }
+    .logo-blanco{
+        width: 120px;
+    }
+    .navegador ul li a{
+        font-size: 9px;
+        padding: 5px;
+        text-align: center;
+     
+    }
+    .imagen-banner{
+        height: 200px;
+    }
+    .preg-padre h1{
+        font-size: 35px;
+    }
+    .h2-prod-centrado{
+        font-size: 18px;
+        text-align: center;
+    }
+    div.caja-productosdestacadosindex{
+        height: 200px;
+    }
+    div.prod-destacado{
+        height: 170px;
+    }
+    .prod-destacado img {
+        height: 100px;
+    }
+    .prod-destacado h4{
+        font-size: 10px;
+    }
+    .prod-destacado p{
+        font-size: 5px;
+    }
+    .prod-destacado h3{
+        font-size: 4px;
+        padding-top: 5px;
+    }
+     
+    .prod-destacado button{
+        font-size: 2px;
+        margin: 2px;
+        
+    }
+    h2.centrado{
+        font-size: 6px;
+    }
+    .tamanio-h2{
+        font-size: 6px;
+    }
+    div.nuestras-redes{
+        height: 25px;
+        justify-items: cover;
+    }
+    div.nuestras-redes img{
+        height: 18px;
+    }
+    div h3{
+        font-size: 5px;
+    }
+    div p{
+        font-size: 4px;
+    }
+    div h6{
+        font-size: 3px;
+    }
+    .h1-politicas{
+        font-size: 15px;
+        padding-top: 4px;
+    }
+    main strong{
+        font-size: 10px;
+    }
+    main p{
+        font-size: 10px;
+    }
+    ul li{
+        font-size: 10px;
+    }
+}
+@media(max-width:481px){
+    .primer-texto p{
+        font-size: 6px;
+    }
+    .logo-blanco{
+        width: 100px;
+    } 
+    .navegador ul li a{
+        font-size: 9px;
+        padding: 5px;
+        text-align: center;
+     
+    }
+    .imagen-banner{
+        height: 200px;
+    }
+    .preg-padre h1{
+        font-size: 30px;
+    }
+    main h2.centrado{
+        font-size: 13px;
+        text-align: center;
+    }
+    div.caja-productosdestacadosindex{
+        height: 200px;
+    }
+    div.prod-destacado{
+        height: 170px;
+    }
+    .prod-destacado img {
+        height: 100px;
+    }
+    .prod-destacado h4{
+        font-size: 10px;
+    }
+    .prod-destacado p{
+        font-size: 5px;
+    }
+    .prod-destacado h3{
+        font-size: 4px;
+        padding-top: 5px;
+    }
+     
+    .prod-destacado button{
+        font-size: 2px;
+        margin: 2px;
+        
+    }
+    h2.centrado{
+        font-size: 6px;
+    }
+    .tamanio-h2{
+        font-size: 6px;
+    }
+    .metodos-de-pago{
+        height: 25px;
+    }
+    div.nuestras-redes{
+        height: 25px;
+        justify-items: cover;
+    }
+    div.nuestras-redes img{
+        height: 18px;
+    }
+    div h3{
+        font-size: 5px;
+    }
+    div p{
+        font-size: 4px;
+    }
+    div h6{
+        font-size: 3px;
+    }
+    .h1-politicas{
+        font-size: 15px;
+        padding-top: 4px;
+    }
+    main strong{
+        font-size: 10px;
+    }
+    main p{
+        font-size: 10px;
+    }
+    ul li{
+        font-size: 10px;
+    }
+}
+
+@media(max-width:320px){
+    .primer-texto p{
+        font-size: 6px;
+    }
+    .logo-blanco{
+        width: 80px;
+    }
+    .navegador ul li a{
+        font-size: 9px;
+        padding: 5px;
+        text-align: center;
+     
+    }
+    .imagen-banner{
+        height: 200px;
+    }
+    .preg-padre h1{
+        font-size: 25px;
+
+    }
+    main h2.centrado{
+        font-size: 13px;
+        text-align: center;
+    }
+    div.caja-productosdestacadosindex{
+        height: 200px;
+    }
+    div.prod-destacado{
+        height: 170px;
+    }
+    .prod-destacado img {
+        height: 100px;
+    }
+    .prod-destacado h4{
+        font-size: 10px;
+    }
+    .prod-destacado p{
+        font-size: 5px;
+    }
+    .prod-destacado h3{
+        font-size: 4px;
+        padding-top: 5px;
+    }
+     
+    .prod-destacado button{
+        font-size: 2px;
+        margin: 2px;
+        
+    }
+    .metodos-de-pago{
+        height: 25px;
+    }
+
+    h2.centrado{
+        font-size: 6px;
+    }
+    .tamanio-h2{
+        font-size: 6px;
+    }
+    div.nuestras-redes{
+        height: 25px;
+        justify-items: cover;
+    }
+    div.nuestras-redes img{
+        height: 18px;
+    }
+    div h3{
+        font-size: 5px;
+    }
+    div p{
+        font-size: 4px;
+    }
+    div h6{
+        font-size: 3px;
+    }
+    .h1-politicas{
+        font-size: 15px;
+        padding-top: 4px;
+    }
+    main strong{
+        font-size: 10px;
+    }
+    main p{
+        font-size: 10px;
+    }
+    ul li{
+        font-size: 10px;
+    }
+   
+
+}
+
+
+/* 
+object fit cover */

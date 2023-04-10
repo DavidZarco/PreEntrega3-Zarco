@@ -1,0 +1,53 @@
+.formulario{
+    width: 800px;
+    margin-left: 10px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:"nombre apellido"
+                        "edad telefono"
+                        "email email"
+                        "mensaje mensaje"
+                        "genero genero"
+                        "terminos terminos"
+                        "enviar borrar";
+    label{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    }
+    label:nth-child(1){
+        grid-area: nombre;
+    }
+    label:nth-child(2){
+        grid-area: apellido;
+    }
+    label:nth-child(3){
+        grid-area: edad;
+    }
+    label:nth-child(4){
+        grid-area: telefono;
+    }
+    label:nth-child(5){
+        grid-area: email;
+    }
+    label:nth-child(6){
+        grid-area: mensaje;
+    }
+    fieldset{
+        grid-area: genero;
+    }
+    .termino{
+        grid-area: terminos;
+        input{
+            height: 20px;  
+        }
+        input:nth-child(1){
+            grid-area: enviar;
+        }
+        input:nth-child(2){
+            grid-area: borrar;
+        }
+    }                    
+}
