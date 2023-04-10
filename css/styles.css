@@ -88,7 +88,7 @@
 .img1-index:hover {
   transform: translate(-20px, 10px);
 }
-.img1-index button {
+.img1-index:hover button {
   transform: scale(1.2);
 }
 
@@ -131,6 +131,31 @@ textarea {
   text-align: center;
 }
 
+@media (max-width: 425px) {
+  .h1-contacto {
+    font-size: 24px;
+  }
+  .h3-contacto {
+    font-size: 18px;
+  }
+  .formulario label {
+    font-size: 18px;
+  }
+  .mapa iframe {
+    width: 400px;
+  }
+}
+@media (max-width: 375px) {
+  .mapa iframe {
+    width: 300px;
+    height: 250px;
+  }
+}
+@media (max-width: 375px) {
+  .formulario label {
+    font-size: 16px;
+  }
+}
 .justificado {
   text-align: start;
 }
@@ -178,7 +203,7 @@ main ul li {
 
 .img-prod div img {
   width: 90%;
-  height: 800px;
+  height: 700px;
   margin-top: 20px;
 }
 
@@ -244,6 +269,18 @@ main ul li {
   grid-area: borrar;
 }
 
+@media (max-width: 768px) {
+  .formulario {
+    width: 700px;
+  }
+}
+@media (max-width: 425px) {
+  .formulario {
+    width: 100px;
+    grid-template-columns: 1fr;
+    grid-template-areas: "nombre" "apellido" "edad " "telefono" "email " "mensaje " "genero " "terminos " "enviar " "borrar";
+  }
+}
 footer div table {
   border: none;
 }
@@ -398,7 +435,7 @@ footer div table {
     padding-top: 5px;
   }
   .prod-destacado button {
-    font-size: 6px;
+    font-size: 8px;
     margin: 4px;
   }
   .caja-productosdestacadosindex {
@@ -547,6 +584,10 @@ footer div table {
   div.prod-destacado {
     height: 170px;
   }
+  .prod-destacado {
+    border: solid 2px;
+    border-radius: 2px;
+  }
   .prod-destacado img {
     height: 100px;
   }
@@ -561,8 +602,37 @@ footer div table {
     padding-top: 5px;
   }
   .prod-destacado button {
-    font-size: 2px;
+    font-size: 6px;
     margin: 2px;
+  }
+  .img1-index:hover {
+    transform: translate(-5px, 5px);
+  }
+  .img1-index:hover button {
+    transform: scale(1.1);
+  }
+  .img2-index:hover {
+    transform: translate(5px, 5px);
+  }
+  .img2-index:hover button {
+    transform: scale(1.1);
+  }
+  .caja-productos div h4 {
+    font-size: 10px;
+  }
+  .caja-productos div p {
+    font-size: 5px;
+  }
+  .caja-productos div h3 {
+    font-size: 8px;
+    padding-top: 5px;
+  }
+  .caja-productos div button {
+    font-size: 6px;
+    margin: 2px;
+  }
+  .h3-footer {
+    font-size: 9px;
   }
   .h2-tamanio {
     font-size: 11px;
@@ -581,10 +651,10 @@ footer div table {
     font-size: 5px;
   }
   div p {
-    font-size: 4px;
+    font-size: 5px;
   }
   div h6 {
-    font-size: 3px;
+    font-size: 5px;
   }
   .h1-politicas {
     font-size: 15px;
@@ -655,7 +725,33 @@ footer div table {
     padding-top: 5px;
   }
   .prod-destacado button {
-    font-size: 4px;
+    font-size: 6px;
+    margin: 2px;
+  }
+  .img1-index:hover {
+    transform: translate(-5px, 5px);
+  }
+  .img1-index:hover button {
+    transform: scale(1.1);
+  }
+  .img2-index:hover {
+    transform: translate(5px, 5px);
+  }
+  .img2-index:hover button {
+    transform: scale(1.1);
+  }
+  .caja-productos div h4 {
+    font-size: 10px;
+  }
+  .caja-productos div p {
+    font-size: 5px;
+  }
+  .caja-productos div h3 {
+    font-size: 8px;
+    padding-top: 5px;
+  }
+  .caja-productos div button {
+    font-size: 6px;
     margin: 2px;
   }
   .metodos-de-pago {
@@ -675,10 +771,10 @@ footer div table {
     font-size: 5px;
   }
   div p {
-    font-size: 4px;
+    font-size: 5px;
   }
   div h6 {
-    font-size: 3px;
+    font-size: 5px;
   }
   .h1-politicas {
     font-size: 15px;

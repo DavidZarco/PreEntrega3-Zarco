@@ -142,7 +142,7 @@
     }
      
     .prod-destacado button{
-        font-size: 6px;
+        font-size: 8px;
         margin: 4px; 
     }
     .caja-productosdestacadosindex{
@@ -284,10 +284,11 @@
     }
     .caja-productos div{
         margin-left: 10px;
+        h4{
+            font-size: 12px;
+        }
     }
-    .caja-productos div h4{
-        font-size: 12px;
-    }
+    
     .caja-productos div h3{
         font-size: 12px;
     }
@@ -303,26 +304,59 @@
     div.prod-destacado{
         height: 170px;
     }
-    .prod-destacado img {
-        height: 100px;
-    }
-    .prod-destacado h4{
-        font-size: 10px;
-    }
-    .prod-destacado p{
-        font-size: 5px;
-    }
-    .prod-destacado h3{
-        font-size: 4px;
-        padding-top: 5px;
-    }
-     
-    .prod-destacado button{
-        font-size: 2px;
-        margin: 2px;
-        
+    .prod-destacado{
+        border: solid 2px;
+        border-radius: 2px;
+        img{
+            height: 100px;
+        }
+        h4{
+            font-size: 10px;
+        }
+        p{
+            font-size: 5px;
+        }
+        h3{
+            font-size: 4px;
+            padding-top: 5px;
+        }
+        button{
+            font-size: 6px;
+            margin: 2px;  
+        }
     }
 
+    .img1-index:hover{
+        transform: translate(-5px,5px);
+        button{
+            transform: scale(1.1);            
+        }
+    }
+    .img2-index:hover{
+        transform: translate(5px,5px);
+        button{
+            transform: scale(1.1);            
+        }
+    }
+    .caja-productos div {
+        h4{
+            font-size: 10px;
+        }
+        p{
+            font-size: 5px;
+        }
+        h3{
+            font-size: 8px;
+            padding-top: 5px;
+        }
+        button{
+            font-size: 6px;
+            margin: 2px;
+        }
+    }
+    .h3-footer{
+        font-size: 9px;
+    }
     .h2-tamanio{
         font-size: 11px;
     }
@@ -332,29 +366,34 @@
     div.nuestras-redes{
         height: 25px;
         justify-items: cover;
+        img{
+            height: 18px;
+        }
     }
-    div.nuestras-redes img{
-        height: 18px;
-    }
-    div h3{
-        font-size: 5px;
-    }
-    div p{
-        font-size: 4px;
-    }
-    div h6{
-        font-size: 3px;
+    div{
+        h3{
+            font-size: 5px;
+        }
+        p{
+            font-size: 5px;
+        }
+        h6{
+            font-size: 5px;
+        }
     }
     .h1-politicas{
         font-size: 15px;
         padding-top: 4px;
     }
-    main strong{
-        font-size: 10px;
+    main{
+        strong{
+            font-size: 10px;
+        }
+        p{
+            font-size: 10px;
+        }
     }
-    main p{
-        font-size: 10px;
-    }
+   
     ul li{
         font-size: 10px;
     }
@@ -420,10 +459,38 @@
             padding-top: 5px;
         }
         button{
-            font-size: 4px;
+            font-size: 6px;
             margin: 2px;
         }
 
+    }
+    .img1-index:hover{
+        transform: translate(-5px,5px);
+        button{
+            transform: scale(1.1);            
+        }
+    }
+    .img2-index:hover{
+        transform: translate(5px,5px);
+        button{
+            transform: scale(1.1);            
+        }
+    }
+    .caja-productos div {
+        h4{
+            font-size: 10px;
+        }
+        p{
+            font-size: 5px;
+        }
+        h3{
+            font-size: 8px;
+            padding-top: 5px;
+        }
+        button{
+            font-size: 6px;
+            margin: 2px;
+        }
     }
 
     .metodos-de-pago{
@@ -444,10 +511,10 @@
             font-size: 5px;
         }
         p{
-            font-size: 4px;
+            font-size: 5px;
         }
         h6{
-            font-size: 3px;
+            font-size: 5px;
         }
     }
     .h1-politicas{

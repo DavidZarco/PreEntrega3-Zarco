@@ -20,15 +20,12 @@
 .prod-destacado h3{
     padding-top: 10px;
 }
-.img1-index{
-    &:hover{
-        transform: translate(-20px,10px);
-    }
+.img1-index:hover{
+    transform: translate(-20px,10px);
     button{
-        transform: scale(1.2);
+        transform: scale(1.2);            
     }
 }
-
 
 .img2-index{
     &:hover{

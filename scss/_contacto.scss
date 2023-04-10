@@ -9,3 +9,28 @@ textarea{
     padding-top: 15px;
     text-align: center;
 }
+@media(max-width:425px){
+    .h1-contacto{
+        font-size: 24px;
+    }
+    .h3-contacto{
+        font-size: 18px;
+    }
+    .formulario label{
+        font-size: 18px;
+    }
+    .mapa iframe{
+       width: 400px;      
+    }
+}
+@media(max-width:375px){
+    .mapa iframe{
+       width: 300px;
+       height: 250px;      
+    }
+}
+@media(max-width:375px){
+    .formulario label{
+        font-size: 16px;
+    }
+}

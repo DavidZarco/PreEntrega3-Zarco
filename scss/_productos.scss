@@ -9,7 +9,7 @@
 }
 .img-prod div img {
     width: 90%;
-    height: 800px;
+    height: 700px;
     margin-top: 20px;   
 }
 .img-prod div img:hover{
@@ -39,6 +39,7 @@
     grid-template-columns: repeat(3,1fr);
     column-gap: 10px;
     row-gap: 10px;
+
 }
 .caja-productos div{
     margin-left: 20px;

@@ -51,3 +51,25 @@
         }
     }                    
 }
+@media (max-width:768px){
+    .formulario{
+        width: 700px;
+    }
+}
+@media (max-width:425px){
+    .formulario{
+        width: 100px;
+        grid-template-columns: 1fr;
+        grid-template-areas:"nombre"
+                            "apellido"
+                            "edad "
+                            "telefono"
+                            "email "
+                            "mensaje "
+                            "genero "
+                            "terminos "
+                            "enviar "
+                            "borrar";
+    }
+    
+}
