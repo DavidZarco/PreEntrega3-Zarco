@@ -1,5 +1,6 @@
+$bg-color:#D9C6FA;
 .navegador{
-    background-color: #D9C6FA;
+    background-image: linear-gradient($bg-color,rgb(234, 0, 255));
     ul{
         display: flex;
         list-style: none;

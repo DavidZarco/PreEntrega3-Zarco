@@ -1,8 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.boton6c, .boton5c, .boton4c, .boton3c, .boton2c, .boton1c {
+  color: white;
+  border-radius: 5px;
+  border: 0;
+  background-color: rgb(11, 11, 170);
+  margin: 10px;
+  padding: 5px 15px;
 }
 
 * {
@@ -12,7 +15,7 @@
 }
 
 .navegador {
-  background-color: #D9C6FA;
+  background-image: linear-gradient(#D9C6FA, rgb(234, 0, 255));
 }
 .navegador ul {
   display: flex;
@@ -45,7 +48,7 @@
 
 .imagen-banner {
   width: 100%;
-  height: 900px;
+  height: 800px;
 }
 
 .box-genero {
@@ -63,6 +66,7 @@
   margin: 10px;
   border: solid 4px;
   border-radius: 5px;
+  transition: 1s;
 }
 .prod-destacado img {
   width: 100%;
@@ -75,27 +79,22 @@
   background-color: rgb(11, 11, 170);
   margin: 10px;
   padding: 5px 15px;
-} /*Index*/
-.texto-izquierda {
-  text-align: end;
 }
 
-.caja-productosdestacadosindex {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+.img1-index:hover {
+  transform: translate(-20px, 10px);
+}
+.img1-index:hover button {
+  transform: scale(1.2);
 }
 
-.h2-prod-centrado {
-  font-size: 46px;
-  text-align: center;
+.img2-index:hover {
+  transform: translate(20px, 10px);
+}
+.img2-index:hover button {
+  transform: scale(1.2);
 }
 
-.redes-h2 {
-  font-size: 34px;
-}
-
-/*Talles*/
 .h1-talles {
   text-align: center;
 }
@@ -110,7 +109,6 @@ table {
   padding: 10px;
 }
 
-/*Contacto*/
 textarea {
   resize: none;
 }
@@ -123,7 +121,6 @@ textarea {
   padding-top: 15px;
 }
 
-/*Politica de Cambio*/
 .justificado {
   text-align: start;
 }
@@ -153,10 +150,16 @@ main ul li {
   padding-top: 10px;
 }
 
-/*Preguntas Frecuentes*/
-/*Productos*/
 .h1-productos {
   text-align: center;
+}
+
+.caja-productos h4 {
+  color: rgb(201, 0, 0);
+}
+
+.caja-productos h3 {
+  color: rgb(212, 0, 255);
 }
 
 .img-prod div img {
@@ -165,13 +168,8 @@ main ul li {
   margin-top: 20px;
 }
 
-.img-prod div button {
-  color: white;
-  border-radius: 5px;
-  border: 0;
-  background-color: rgb(11, 11, 170);
-  margin: 10px;
-  padding: 5px 15px;
+.img-prod div img:hover {
+  transform: scale(1.2);
 }
 
 .caja-productos {
@@ -181,7 +179,30 @@ main ul li {
   row-gap: 10px;
 }
 
-/*Generales*/
+.caja-productos div {
+  margin-left: 20px;
+}
+
+/*Index*/
+.texto-izquierda {
+  text-align: end;
+}
+
+.caja-productosdestacadosindex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.h2-prod-centrado {
+  font-size: 46px;
+  text-align: center;
+}
+
+.redes-h2 {
+  font-size: 34px;
+}
+
 .table-webs tr td {
   border: none;
 }
@@ -215,6 +236,12 @@ footer div table {
 }
 
 @media (max-width: 1025px) {
+  .caja-productos div {
+    height: 380px;
+  }
+  .caja-productos div img {
+    height: 60%;
+  }
   .h1-politicas {
     font-size: 36px;
   }
@@ -450,6 +477,31 @@ footer div table {
   div.caja-productosdestacadosindex {
     height: 200px;
   }
+  .h1-productos {
+    font-size: 24px;
+    padding-top: 5px;
+  }
+  .caja-productos div {
+    height: 250px;
+  }
+  .caja-productos div {
+    margin-left: 10px;
+  }
+  .caja-productos div h4 {
+    font-size: 12px;
+  }
+  .caja-productos div h3 {
+    font-size: 12px;
+  }
+  .caja-productos div button {
+    font-size: 10px;
+  }
+  .caja-productos div h4 {
+    font-size: 10px;
+  }
+  .caja-productos div h3 {
+    font-size: 9px;
+  }
   div.prod-destacado {
     height: 170px;
   }
@@ -473,8 +525,8 @@ footer div table {
   h2.centrado {
     font-size: 6px;
   }
-  .tamanio-h2 {
-    font-size: 6px;
+  .h2-tamanio {
+    font-size: 11px;
   }
   .metodos-de-pago {
     height: 25px;
@@ -560,8 +612,8 @@ footer div table {
   h2.centrado {
     font-size: 6px;
   }
-  .tamanio-h2 {
-    font-size: 6px;
+  .h2-tamanio {
+    font-size: 9px;
   }
   div.nuestras-redes {
     height: 25px;
@@ -593,7 +645,5 @@ footer div table {
     font-size: 10px;
   }
 }
-/* 
-object fit cover */
 
 /*# sourceMappingURL=styles.css.map */

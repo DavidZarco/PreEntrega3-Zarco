@@ -1,12 +1,13 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@mixin sizes($ancho,$alto) {
+    width: $ancho;
+    height: $alto;
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import "variables";
+@import "extends";
 @import "reset";
 @import "navegador";
 @import "primer-texto";
@@ -14,9 +15,11 @@
 @import "imagen-banner";
 @import "box-genero";
 @import "prod-destacado";
-
+@import "talles";
+@import "contacto";
+@import "politicas-cambio";
+@import "productos";
 /*Index*/
-
 
 .texto-izquierda{
     text-align: end;
@@ -34,107 +37,6 @@
 .redes-h2{
     font-size: 34px;
 }
-
-
-
-
-
-
-/*Talles*/
-
-.h1-talles{
-    text-align: center;
-}
-table{
-    border: solid 4px;
-    border-collapse: collapse;
-}
-.tabla-talles th,td{
-    border: solid 4px;
-    padding: 10px;
-}
-
-/*Contacto*/
-
-textarea{
-    resize:none;
-}
-.pad-top15 form{
-    padding-top: 15px;
-}
-.pad-top15 form div{
-    padding-top: 15px;
-}
-
-/*Politica de Cambio*/
-.justificado{
-    text-align: start;
-}
-main ul li{
-    text-align: center;
-    list-style: disc;
-}
-.strong-politica{
-    padding-top: 15px;
-}
-.h2-footer{
-    padding-top: 10px;
-}
-.foot-position-politicas{
-    position: absolute;
-    bottom: 385px;
-    width: 100%;
-    height: 10px;
-}
-.h1-politicas{
-    text-align: center;
-    padding-top: 10px;
-}
-
-
-
-
-
-/*Preguntas Frecuentes*/
-
-
-
-
-
-
-/*Productos*/
-
-.h1-productos{
-    text-align: center;
-}
-.img-prod div img {
-    width: 90%;
-    height: 800px;
-    margin-top: 20px;
-    
-}
-.img-prod div button{
-    color: white;
-    border-radius: 5px;
-    border: 0;
-    background-color: rgb(11, 11, 170);
-    margin: 10px;
-    padding: 5px 15px;
-}
-.caja-productos{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    column-gap: 10px;
-    row-gap: 10px;
-    
-    
-}
-
-
-
-
-/*Generales*/
-
 
 .table-webs tr td{
     border: none; 
@@ -166,6 +68,13 @@ footer div table{
 
 
 @media(max-width:1025px){
+
+    .caja-productos div{
+        height: 380px;
+    }
+    .caja-productos div img{
+        height: 60%;
+    }
     .h1-politicas{
         font-size: 36px;
     }
@@ -410,6 +319,31 @@ footer div table{
     div.caja-productosdestacadosindex{
         height: 200px;
     }
+    .h1-productos{
+        font-size: 24px;
+        padding-top: 5px;
+    }
+    .caja-productos div{
+        height: 250px;
+    }
+    .caja-productos div{
+        margin-left: 10px;
+    }
+    .caja-productos div h4{
+        font-size: 12px;
+    }
+    .caja-productos div h3{
+        font-size: 12px;
+    }
+    .caja-productos div button{
+    font-size: 10px;   
+    }
+    .caja-productos div h4{
+        font-size: 10px;
+    }
+    .caja-productos div h3{
+        font-size: 9px;
+    }
     div.prod-destacado{
         height: 170px;
     }
@@ -435,8 +369,8 @@ footer div table{
     h2.centrado{
         font-size: 6px;
     }
-    .tamanio-h2{
-        font-size: 6px;
+    .h2-tamanio{
+        font-size: 11px;
     }
     .metodos-de-pago{
         height: 25px;
@@ -528,8 +462,8 @@ footer div table{
     h2.centrado{
         font-size: 6px;
     }
-    .tamanio-h2{
-        font-size: 6px;
+    .h2-tamanio{
+        font-size: 9px;
     }
     div.nuestras-redes{
         height: 25px;
@@ -563,7 +497,3 @@ footer div table{
    
 
 }
-
-
-/* 
-object fit cover */

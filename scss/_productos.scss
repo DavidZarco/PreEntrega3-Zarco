@@ -1,0 +1,45 @@
+.h1-productos{
+    text-align: center;
+}
+.caja-productos h4{
+    color: map-get($colores, colorrojo);
+}
+.caja-productos h3{
+    color: map-get($colores, colorrosa);
+}
+.img-prod div img {
+    width: 90%;
+    height: 800px;
+    margin-top: 20px;   
+}
+.img-prod div img:hover{
+    transform: scale(1.2)
+}
+
+.boton1c{
+    @extend %btn;
+}
+.boton2c{
+    @extend %btn;
+}
+.boton3c{
+    @extend %btn;
+}
+.boton4c{
+    @extend %btn;
+}
+.boton5c{
+    @extend %btn;
+}
+.boton6c{
+    @extend %btn;
+}
+.caja-productos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.caja-productos div{
+    margin-left: 20px;
+}
