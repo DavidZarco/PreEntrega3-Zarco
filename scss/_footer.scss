@@ -1,0 +1,24 @@
+footer div table{
+    border: none;
+}
+.metodos-de-pago{
+    display: flex;
+    height: 60px;
+    div img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+.nuestras-redes{
+    display: flex;
+    height: 60px;
+    div img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+.derechos-de-autor{
+    text-align: end;
+}
