@@ -14,6 +14,11 @@
   box-sizing: border-box;
 }
 
+.row, .container, .container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
 .navegador {
   background-image: linear-gradient(#D9C6FA, rgb(234, 0, 255));
 }
