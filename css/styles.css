@@ -295,7 +295,7 @@ main ul li {
 }
 @media (max-width: 375px) {
   .mapa iframe {
-    width: 300px;
+    width: 270px;
     height: 250px;
   }
   .formulario label {
