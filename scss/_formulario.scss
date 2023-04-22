@@ -1,7 +1,5 @@
 .formulario{
-    width: 800px;
     margin-left: 10px;
-    
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:"nombre apellido"
@@ -51,14 +49,9 @@
         }
     }                    
 }
+
 @media (max-width:768px){
-    .formulario{
-        width: 700px;
-    }
-}
-@media (max-width:425px){
-    .formulario{
-        width: 100px;
+    .formulario{  
         grid-template-columns: 1fr;
         grid-template-areas:"nombre"
                             "apellido"
@@ -71,5 +64,40 @@
                             "enviar "
                             "borrar";
     }
+    .mapa iframe{
+        width: 350px;
+        height: 200px;      
+     }
+}
+@media (max-width:425px){
+    .formulario{  
+        grid-template-columns: 1fr;
+        grid-template-areas:"nombre"
+                            "apellido"
+                            "edad "
+                            "telefono"
+                            "email "
+                            "mensaje "
+                            "genero "
+                            "terminos "
+                            "enviar "
+                            "borrar";
+    }
+    .formulario label{
+        font-size: 18px;
+    }
+    .mapa iframe{
+       width: 200px;
+       height: 100px;      
+    }
     
+}
+@media(max-width:375px){
+    .mapa iframe{
+       width: 300px;
+       height: 250px;      
+    }
+    .formulario label{
+        font-size: 16px;
+    }
 }
