@@ -121,6 +121,7 @@ table {
 .tabla-talles th, td {
   border: solid 4px;
   padding: 10px;
+  text-align: center;
 }
 
 .tabla-talles {
@@ -188,7 +189,7 @@ main ul li {
 }
 
 .h3-footer {
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 .h1-productos {
