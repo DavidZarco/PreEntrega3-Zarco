@@ -464,6 +464,12 @@ footer div table {
     object-fit: cover;
     height: 200px;
   }
+  .metodos-de-pago {
+    height: 35px;
+  }
+  div.nuestras-redes{
+    height: 35px;
+  }
   .h2-footer {
     font-size: 20px;
   }
@@ -492,27 +498,30 @@ footer div table {
   .preg-padre h1 {
     font-size: 35px;
   }
+  .metodos-de-pago {
+    height: 25px;
+  }
   div.caja-productosdestacadosindex {
-    height: 200px;
+    height: 220px;
   }
   div.prod-destacado {
-    height: 170px;
+    height: 210px;
   }
   .prod-destacado img {
     height: 100px;
   }
   .prod-destacado h4 {
-    font-size: 10px;
+    font-size: 16px;
   }
   .prod-destacado p {
-    font-size: 5px;
+    font-size: 10px;
   }
   .prod-destacado h3 {
-    font-size: 4px;
+    font-size: 10px;
     padding-top: 5px;
   }
   .prod-destacado button {
-    font-size: 2px;
+    font-size: 10px;
     margin: 2px;
   }
   .h2-tamanio {
@@ -572,6 +581,9 @@ footer div table {
   div.caja-productosdestacadosindex {
     height: 200px;
   }
+  div.prod-destacado {
+    height: 10px;
+  }
   .h1-productos {
     font-size: 24px;
     padding-top: 5px;
@@ -598,7 +610,7 @@ footer div table {
     font-size: 9px;
   }
   div.prod-destacado {
-    height: 170px;
+    height: 190px;
   }
   .prod-destacado {
     border: solid 2px;
@@ -608,13 +620,13 @@ footer div table {
     height: 100px;
   }
   .prod-destacado h4 {
-    font-size: 10px;
+    font-size: 14px;
   }
   .prod-destacado p {
-    font-size: 5px;
+    font-size: 8px;
   }
   .prod-destacado h3 {
-    font-size: 4px;
+    font-size: 8px;
     padding-top: 5px;
   }
   .prod-destacado button {
@@ -653,9 +665,10 @@ footer div table {
   .h2-tamanio {
     font-size: 11px;
   }
-  .metodos-de-pago {
+ .metodos-de-pago {
     height: 25px;
   }
+
   div.nuestras-redes {
     height: 25px;
     justify-items: cover;
@@ -722,7 +735,7 @@ footer div table {
     font-size: 16px;
   }
   div.caja-productosdestacadosindex {
-    height: 190px;
+    height: 200px;
   }
   div.prod-destacado {
     height: 170px;
@@ -734,10 +747,10 @@ footer div table {
     font-size: 12px;
   }
   .prod-destacado p {
-    font-size: 6px;
+    font-size: 8px;
   }
   .prod-destacado h3 {
-    font-size: 6px;
+    font-size: 8px;
     padding-top: 5px;
   }
   .prod-destacado button {
@@ -769,6 +782,9 @@ footer div table {
   .caja-productos div button {
     font-size: 6px;
     margin: 2px;
+  }
+  div.prod-destacado {
+    height: 190px;
   }
   .metodos-de-pago {
     height: 25px;

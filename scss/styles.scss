@@ -183,27 +183,27 @@
     }
  
     div.caja-productosdestacadosindex{
-        height: 200px;
+        height: 220px;
     }
     div.prod-destacado{
-        height: 170px;
+        height: 210px;
     }
     .prod-destacado img {
         height: 100px;
     }
     .prod-destacado h4{
-        font-size: 10px;
+        font-size: 16px;
     }
     .prod-destacado p{
-        font-size: 5px;
+        font-size: 10px;
     }
     .prod-destacado h3{
-        font-size: 4px;
+        font-size: 10px;
         padding-top: 5px;
     }
      
     .prod-destacado button{
-        font-size: 2px;
+        font-size: 10px;
         margin: 2px;
         
     }
@@ -269,6 +269,9 @@
     div.caja-productosdestacadosindex{
         height: 200px;
     }
+    div.prod-destacado{ 
+        height: 10px;
+    }
     .h1-productos{
         font-size: 24px;
         padding-top: 5px;
@@ -296,7 +299,7 @@
         font-size: 9px;
     }
     div.prod-destacado{
-        height: 170px;
+        height: 190px;
     }
     .prod-destacado{
         border: solid 2px;
@@ -305,13 +308,13 @@
             height: 100px;
         }
         h4{
-            font-size: 10px;
+            font-size: 14px;
         }
         p{
-            font-size: 5px;
+            font-size: 8px;
         }
         h3{
-            font-size: 4px;
+            font-size: 8px;
             padding-top: 5px;
         }
         button{
@@ -319,6 +322,7 @@
             margin: 2px;  
         }
     }
+
 
     .img1-index:hover{
         transform: translate(-5px,5px);
@@ -433,7 +437,7 @@
     }
     
     div.caja-productosdestacadosindex{
-        height: 190px;
+        height: 200px;
     }
     div.prod-destacado{
         height: 170px;
@@ -446,10 +450,10 @@
             font-size: 12px;
         }
         p{
-            font-size: 6px;
+            font-size: 8px;
         }
         h3{
-            font-size: 6px;
+            font-size: 8px;
             padding-top: 5px;
         }
         button{
@@ -486,7 +490,9 @@
             margin: 2px;
         }
     }
-   
+    div.prod-destacado{
+        height: 190px;
+    }
 
     .metodos-de-pago{
         height: 25px;
