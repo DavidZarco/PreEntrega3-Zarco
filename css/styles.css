@@ -514,6 +514,7 @@ footer div table {
   }
   .prod-destacado img {
     height: 100px;
+    object-fit: fill;
   }
   .prod-destacado h4 {
     font-size: 16px;
@@ -586,7 +587,7 @@ footer div table {
   .preg-padre h1 {
     font-size: 30px;
   }
-  div.caja-productosdestacadosindex {
+  .caja-productosdestacadosindex {
     height: 200px;
   }
   div.prod-destacado {
