@@ -722,7 +722,7 @@ footer div table {
     font-size: 16px;
   }
   div.caja-productosdestacadosindex {
-    height: 180px;
+    height: 190px;
   }
   div.prod-destacado {
     height: 170px;
@@ -731,17 +731,17 @@ footer div table {
     height: 100px;
   }
   .prod-destacado h4 {
-    font-size: 10px;
+    font-size: 12px;
   }
   .prod-destacado p {
-    font-size: 5px;
+    font-size: 6px;
   }
   .prod-destacado h3 {
-    font-size: 4px;
+    font-size: 6px;
     padding-top: 5px;
   }
   .prod-destacado button {
-    font-size: 6px;
+    font-size: 8px;
     margin: 2px;
   }
   .img1-index:hover {
