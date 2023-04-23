@@ -1,13 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
-.boton6c, .boton5c, .boton4c, .boton3c, .boton2c, .boton1c {
-  color: white;
-  border-radius: 5px;
-  border: 0;
-  background-color: rgb(11, 11, 170);
-  margin: 10px;
-  padding: 5px 15px;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -17,6 +8,15 @@
 .row, .container, .container-fluid {
   margin: 0;
   padding: 0;
+}
+
+.boton6c, .boton5c, .boton4c, .boton3c, .boton2c, .boton1c {
+  color: white;
+  border-radius: 5px;
+  border: 0;
+  background-color: rgb(11, 11, 170);
+  margin: 10px;
+  padding: 5px 15px;
 }
 
 .navegador {
@@ -702,7 +702,7 @@ footer div table {
 }
 @media (max-width: 320px) {
   .primer-texto p {
-    font-size: 6px;
+    font-size: 8px;
   }
   .logo-blanco {
     width: 80px;
@@ -722,7 +722,7 @@ footer div table {
     font-size: 16px;
   }
   div.caja-productosdestacadosindex {
-    height: 200px;
+    height: 180px;
   }
   div.prod-destacado {
     height: 170px;

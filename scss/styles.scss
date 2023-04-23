@@ -1,3 +1,4 @@
+@import "reset";
 @mixin sizes($ancho,$alto) {
     width: $ancho;
     height: $alto;
@@ -8,7 +9,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
 @import "variables";
 @import "extends";
-@import "reset";
 @import "navegador";
 @import "primer-texto";
 @import "logo-blanco";
@@ -411,7 +411,7 @@
 @media(max-width:320px){
 
     .primer-texto p{
-        font-size: 6px;
+        font-size: 8px;
     }
     .logo-blanco{
         width: 80px;
@@ -433,7 +433,7 @@
     }
     
     div.caja-productosdestacadosindex{
-        height: 200px;
+        height: 180px;
     }
     div.prod-destacado{
         height: 170px;
@@ -486,6 +486,7 @@
             margin: 2px;
         }
     }
+   
 
     .metodos-de-pago{
         height: 25px;
