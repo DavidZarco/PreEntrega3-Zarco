@@ -205,13 +205,18 @@ main ul li {
 }
 
 .img-prod div img {
-  width: 90%;
+  width: 100%;
   height: 700px;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 .img-prod div img:hover {
   transform: scale(1.2);
+}
+
+.productos-productos {
+  border: solid 5px;
+  border-radius: 10px;
 }
 
 .caja-productos {
@@ -464,12 +469,6 @@ footer div table {
     object-fit: cover;
     height: 200px;
   }
-  .metodos-de-pago {
-    height: 35px;
-  }
-  div.nuestras-redes{
-    height: 35px;
-  }
   .h2-footer {
     font-size: 20px;
   }
@@ -497,9 +496,6 @@ footer div table {
   }
   .preg-padre h1 {
     font-size: 35px;
-  }
-  .metodos-de-pago {
-    height: 25px;
   }
   div.caja-productosdestacadosindex {
     height: 220px;
@@ -665,10 +661,9 @@ footer div table {
   .h2-tamanio {
     font-size: 11px;
   }
- .metodos-de-pago {
+  .metodos-de-pago {
     height: 25px;
   }
-
   div.nuestras-redes {
     height: 25px;
     justify-items: cover;

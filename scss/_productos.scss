@@ -8,12 +8,16 @@
     color: map-get($colores, colorrosa);
 }
 .img-prod div img {
-    width: 90%;
+    width: 100%;
     height: 700px;
-    margin-top: 20px;   
+    margin-top: 0px;   
 }
 .img-prod div img:hover{
     transform: scale(1.2)
+}
+.productos-productos{
+        border: solid 5px;
+        border-radius: 10px;
 }
 
 .boton1c{
