@@ -27,10 +27,11 @@
 
     .caja-productos div{
         height: 380px;
+        img{
+            height: 68%;    
+        }
     }
-    .caja-productos div img{
-        height: 60%;
-    }
+  
     .h1-politicas{
         font-size: 36px;
     }
@@ -56,18 +57,21 @@
     main h2{
         font-size: 38px;
     }
-    footer h2{
-        font-size: 25px;
+    footer{
+        h2{
+            font-size: 25px;
+        }
+        h3{
+            font-size: 20px;
+        }
+        p{
+            font-size: 14px;
+        }
+        h6{
+            font-size: 10px;
+        }
     }
-    footer h3{
-        font-size: 20px;
-    }
-    footer p{
-        font-size: 14px;
-    }
-    footer h6{
-        font-size: 10px;
-    }
+
     .nuestras-redes{
         height: 50px;
         img{
@@ -87,11 +91,13 @@
     .h1-politicas{
         font-size: 30px;
     }
-    main strong{
-        font-size: 18px;
-    }
-    main p{
-       font-size: 16px; 
+    main{
+        strong{
+            font-size: 18px;
+        }
+        p{
+            font-size: 16px; 
+         }
     }
     .h2-foter{
         font-size: 24px;
@@ -102,12 +108,15 @@
     .h3-footer{
         font-size: 18px;
     }
-    footer p{
-        font-size: 12px;
+    footer{
+        p{
+            font-size: 12px;
+        }
+        h6{
+            font-size: 8px;
+        }
     }
-    footer h6{
-        font-size: 8px;
-    }
+
     .navegador ul li a{
         font-size: 14px;
     }
@@ -124,41 +133,48 @@
         height: 395px;   
     }
 
-    .prod-destacado h4{
-        font-size: 16px;
-    }
-    .prod-destacado p{
-        font-size: 10px;
-    }
-    .prod-destacado h3{
-        font-size: 12px;
-        padding-top: 5px;
-    }
-     
-    .prod-destacado button{
-        font-size: 8px;
-        margin: 4px; 
+    .prod-destacado{
+        h4{
+            font-size: 16px;
+        }
+        p{
+            font-size: 10px;
+        }
+        h3{
+            font-size: 12px;
+            padding-top: 5px;   
+        }
+        button{
+            font-size: 15px;
+            margin: 4px;
+            position: sticky;
+        }
+
     }
     .caja-productosdestacadosindex{
         height: 320px;
     }
-    div.prod-destacado{
+    .prod-destacado{
         height: 300px;
+        img{
+            object-fit: cover;
+            height: 200px;
+        }
     }
-    .prod-destacado img{
-        object-fit: cover;
-        height: 200px;
-    }
+
     .h2-footer{
         font-size: 20px;
     }
-
+    .metodos-de-pago{
+        height: 40px;
+    }
     .nuestras-redes{
         height: 50px;
+        img{
+            height: 50px; 
+        }
     }
-    .nuestras-redes img{
-        height: 50px;
-    }
+
 }
 
 @media(max-width:556px){
@@ -182,50 +198,52 @@
         font-size: 35px;
     }
  
-    div.caja-productosdestacadosindex{
+    .caja-productosdestacadosindex{
         height: 220px;
     }
-    div.prod-destacado{
-        height: 210px;
-    }
-    .prod-destacado img {
+    .prod-destacado{
+        height: 200px;
+        img{
         height: 100px;
-    }
-    .prod-destacado h4{
-        font-size: 16px;
-    }
-    .prod-destacado p{
-        font-size: 10px;
-    }
-    .prod-destacado h3{
-        font-size: 10px;
-        padding-top: 5px;
-    }
-     
-    .prod-destacado button{
-        font-size: 10px;
-        margin: 2px;
-        
-    }
-   
+        }
+        h4{
+            font-size: 16px;
+        }
+        p{
+            font-size: 10px;
+        }
+        h3{
+            font-size: 10px;
+            padding-top: 5px;
+        }
+        button{
+            font-size: 14px;
+            margin: 2px;        
+        }
+    }  
     .h2-tamanio{
-        font-size: 11px;
+        font-size: 12px;
+    }
+    .metodos-de-pago{
+        height: 30px;
     }
     div.nuestras-redes{
         height: 25px;
         justify-items: cover;
+        img{
+            height: 18px;   
+        }
     }
-    div.nuestras-redes img{
-        height: 18px;
-    }
-    div h3{
-        font-size: 5px;
-    }
-    div p{
-        font-size: 4px;
-    }
-    div h6{
-        font-size: 3px;
+    div{
+        h3{
+            font-size: 10px;
+        }
+        p{
+            font-size: 8px;
+        }
+        h6{
+            font-size: 6px;
+        }
     }
     .h1-politicas{
         font-size: 15px;
